@@ -1,0 +1,60 @@
+.about-page {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px auto;
+  /* margin: 30px; */
+  padding: 13px;
+  width: 80%;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.about {
+  margin: 40px;
+ text-align: center;
+}
+.button-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+.button-about button {
+  background-color: transparent;
+  padding: 5px;
+  margin: 2px;
+  /* margin: 20px; */
+  width: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .about {
+    margin: 40px;
+    font-size: 18px !important;
+  }
+  .about-page {
+    margin: 40px !important;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 14px;
+  }
+  .button-about{
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    
+    /* display: inline-block;
+    /* margin-top: 20px; */
+    /* margin-left: 150px;  */
+  }
+  .button-about > button{
+    display: flex;
+    width: 70px;
+    margin: 3px !important;
+    margin-top: 10px !important;
+    padding: 5px;
+  }
+}
