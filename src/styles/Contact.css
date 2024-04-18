@@ -111,10 +111,9 @@ h4 {
   .container-1 {
     margin: 30px;
     width: 300px;
-    height: 250px;
+    height: 380px;
   }
-  input,
-  textarea {
+  input {
     width: 250px;
     height: 20px;
     margin: 10px;
@@ -125,11 +124,25 @@ h4 {
     outline: none;
     border: 1px solid black;
   }
+  textarea{
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    color: black;
+    font-size: 14px;
+    /* border-radius: 10px; */
+    background-color: rgb(203, 200, 200);
+    outline: none;
+    border: 1px solid black;
+  }
   button {
+    text-indent: 9px;
     display: flex;
     margin-top: 80px !important;
     width: 140px;
     margin-bottom: 30px !important;
+    padding: 4px;
+    font-size: 14px;
     /* height: 20px; */
   }
 }

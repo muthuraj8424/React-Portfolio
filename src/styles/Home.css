@@ -32,15 +32,16 @@
 }
 .additional-info>p{
   text-indent: 30px;
-  font-size: 17px;
+  font-size: 18px;
 }
 .content-home{
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
 }
 li{
  margin: 10px;
   list-style-type: disc !important;
+  font-size: large;
 }
 h5{
   font-size: large;
@@ -84,6 +85,13 @@ p , span{
     margin: 10px 0px;
     font-size: 14px;
   }
+  .options-div>li>a{
+    font-size: 14px;
+  }
+  .options-div>li>a>i{
+    font-size: 14px;
+  }
+
   h3{
     display: flex;
     justify-content: center;

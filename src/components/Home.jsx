@@ -47,31 +47,59 @@ function Home() {
           </div>
         </div>
         <div className="add-main">
-        <div className="additional-info">
-          <h2>Why Work with me..</h2>
-          <p>
-            I am a great communicator and love to interest the necessary time to
-            understand the customer's problem very well
-          </p>
-          <h5>DEVELOPMENT TOOLS:</h5>
-          <p>
-            I am familiar and work on a daily basis with
-            HTML,CSS,javascript,bootstarp,and the framework React{" "}
-          </p>
-          <h5>DELIEVERED PROJECTS:</h5>
-          <p>
-            Listed below are some of the projects , that i have made using
-            javascript
-          </p>
-            <li><a href="https://muthuraj8424.github.io/colorpicker/">ColorFliper</a></li>
-            <li><a href="https://muthuraj8424.github.io/WeatherAPI/">WeatherAPI</a></li>
-            <li><a href="https://muthuraj8424.github.io/numberchallenge/">Guessthenum</a></li>
-            <li><a href="https://muthuraj8424.github.io/todoliist/">ToDo-List</a></li>
-            <li><a href="https://muthuraj8424.github.io/form-validation/">Form-Validation</a></li>
-        </div>
-        <div className="additional-image">
-          <img src={addimg} alt="add-img" className="additional-img"/>
-        </div>
+          <div className="additional-info">
+            <h2>Why Work with me..</h2>
+            <p>
+              I am a great communicator and love to interest the necessary time
+              to understand the customer's problem very well
+            </p>
+            <h5>DEVELOPMENT TOOLS:</h5>
+            <p>
+              I am familiar and work on a daily basis with
+              HTML,CSS,javascript,bootstarp,and the framework React{" "}
+            </p>
+            <h5>DELIEVERED PROJECTS:</h5>
+            <p>
+              Listed below are some of the projects , that i have made using
+              javascript.. Click the below links to view the project...
+            </p>
+            <div className="options-div">
+              {" "}
+              <li>
+                <a href="https://muthuraj8424.github.io/colorpicker/">
+                  ColorFliper{" "}
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://muthuraj8424.github.io/WeatherAPI/">
+                  WeatherAPI{" "}
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://muthuraj8424.github.io/numberchallenge/">
+                  Guessthenum{" "}
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://muthuraj8424.github.io/todoliist/">
+                  ToDo-List{" "}
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://muthuraj8424.github.io/form-validation/">
+                  Form-Validation{" "}
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </li>
+            </div>
+          </div>
+          <div className="additional-image">
+            <img src={addimg} alt="add-img" className="additional-img" />
+          </div>
         </div>
         <Footer />
         {/* <div style={{ borderTop: "1px solid white", margin: "40px" }}>

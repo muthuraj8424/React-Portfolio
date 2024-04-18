@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   color: #fff;
-  /* padding: 10px 0; */
+  margin: 30px;
 }
 .navbar-container {
   display: flex;
@@ -42,8 +42,25 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  .navbar {
+    position: sticky ;
+    top: 0;
+    color: #fff;
+    width: 100%;
+  
+    /* display: none; */
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+      background: transparent;
+  }
   .navbar-menu {
-    display: none; /* Hide menu on small screens */
+    display: none; 
     flex-direction: column;
     position: absolute;
     /* margin: 0 20px; */

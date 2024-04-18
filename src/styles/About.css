@@ -1,8 +1,8 @@
 .about-page {
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
   /* margin: 30px; */
   padding: 13px;
   width: 80%;
@@ -12,7 +12,7 @@ margin: 0px auto;
 }
 .about {
   margin: 40px;
- text-align: center;
+  text-align: center;
 }
 .button-about {
   display: flex;
@@ -39,22 +39,24 @@ margin: 0px auto;
     width: 300px;
     font-size: 14px;
   }
-  .button-about{
-    margin: 0 auto !important;
+  .button-about {
+    /* margin: 0 auto !important; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:5px;
-    
-    /* display: inline-block;
-    /* margin-top: 20px; */
-    /* margin-left: 150px;  */
+    margin-top: 0px !important;
+    /* margin: 5px;  */
+     display: inline-block;
+     /* margin-top: 20px; */
+    margin-left: 150px; 
   }
-  .button-about > button{
-    display: flex;
+  .button-about > Link {
+    margin-top: 0px !important;
+    /* padding: 30px; */
+    display: flex; 
     width: 70px;
-    margin: 3px !important;
-    margin-top: 10px !important;
-    padding: 5px;
+    /* margin: 3px !important; */
+    /* margin-top: 10px !important; */
+    padding: 5px; 
   }
 }

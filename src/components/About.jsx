@@ -22,7 +22,7 @@ function About() {
         </p>
       </div>
       <div className="button-about">
-        <button>Resume</button>
+        {/* <button>Resume</button> */}
         <Link to="/contact"><button>Contact</button></Link>
       </div>
     </div>
