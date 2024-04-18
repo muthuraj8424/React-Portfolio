@@ -62,6 +62,7 @@ function Home() {
             <p>
               Listed below are some of the projects , that i have made using
               javascript.. Click the below links to view the project...
+              "These websites are not designed to be responsive."
             </p>
             <div className="options-div">
               {" "}
