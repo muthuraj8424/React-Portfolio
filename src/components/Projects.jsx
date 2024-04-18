@@ -52,8 +52,10 @@ function Project() {
             style={{ fontSize: "20px", textDecoration: "UnderLine" }}
             className="colorpicker"
           >
-            Projects:
-          </h2>
+            Projects: 
+           
+           
+          </h2> <p style={{margin:'10px'}}>"These websites are not designed to be responsive."</p>
           <div className="project">
             <h2 className="project-heading">
               <a href="https://tictactoe-project-mu.vercel.app/">
